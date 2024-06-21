@@ -1,11 +1,22 @@
-/*
- * header for varlib.c package
- */
+#ifndef VARLIB_H
+#define VARLIB_H
 
-int	VLenviron2table(char **);
-int	VLexport(char *);
-char	*VLlookup(char *);
-void	VLlist();
-int	VLstore( char *, char * );
-char	**VLtable2environ();
-int	VLenviron2table(char **);
+#include <cstring>
+#include <cstdlib>
+
+#ifndef MAXVARS
+#define MAXVARS 200
+#endif
+
+using std::size_t;
+
+struct Var;
+
+int VLenviron2table(char **);
+int VLexport(const char *);
+char *VLlookup(const char *);
+void VLlist();
+int VLstore(const char *, const char *);
+char **VLtable2environ();
+
+#endif

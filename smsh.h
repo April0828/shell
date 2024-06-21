@@ -1,12 +1,22 @@
-#define	YES	1
-#define	NO	0
+#ifndef SMSH_H
+#define SMSH_H
 
-char	*next_cmd();
-char	**splitline(char *);
-void	freelist(char **);
-void	*emalloc(size_t);
-void	*erealloc(void *, size_t);
-int	execute(char **);
-void	fatal(char *, char *, int );
+#include <cstddef>
+#include <cstdlib>
+#include <new>
+#include <vector>
 
-int	process();
+constexpr int YES = 1;
+constexpr int NO = 0;
+
+char *next_cmd(const char *, FILE *);
+char **splitline(const std::string &line);
+void freelist(char **);
+void *emalloc(std::size_t);
+void *erealloc(void *, std::size_t);
+int execute(char **);
+void fatal(const char *, const char *, int);
+
+int process(char **args);
+
+#endif
