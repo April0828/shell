@@ -1,0 +1,37 @@
+[
+{
+  "directory": "D:/Ubuntu-22.04/cmakelist/build",
+  "command": "g++   -g -std=gnu++11 -o CMakeFiles\\demo.dir\\builtin.cpp.obj -c D:\\Ubuntu-22.04\\cmakelist\\builtin.cpp",
+  "file": "D:/Ubuntu-22.04/cmakelist/builtin.cpp"
+},
+{
+  "directory": "D:/Ubuntu-22.04/cmakelist/build",
+  "command": "g++   -g -std=gnu++11 -o CMakeFiles\\demo.dir\\controlflow.cpp.obj -c D:\\Ubuntu-22.04\\cmakelist\\controlflow.cpp",
+  "file": "D:/Ubuntu-22.04/cmakelist/controlflow.cpp"
+},
+{
+  "directory": "D:/Ubuntu-22.04/cmakelist/build",
+  "command": "g++   -g -std=gnu++11 -o CMakeFiles\\demo.dir\\execute.cpp.obj -c D:\\Ubuntu-22.04\\cmakelist\\execute.cpp",
+  "file": "D:/Ubuntu-22.04/cmakelist/execute.cpp"
+},
+{
+  "directory": "D:/Ubuntu-22.04/cmakelist/build",
+  "command": "g++   -g -std=gnu++11 -o CMakeFiles\\demo.dir\\process2.cpp.obj -c D:\\Ubuntu-22.04\\cmakelist\\process2.cpp",
+  "file": "D:/Ubuntu-22.04/cmakelist/process2.cpp"
+},
+{
+  "directory": "D:/Ubuntu-22.04/cmakelist/build",
+  "command": "g++   -g -std=gnu++11 -o CMakeFiles\\demo.dir\\smsh2.cpp.obj -c D:\\Ubuntu-22.04\\cmakelist\\smsh2.cpp",
+  "file": "D:/Ubuntu-22.04/cmakelist/smsh2.cpp"
+},
+{
+  "directory": "D:/Ubuntu-22.04/cmakelist/build",
+  "command": "g++   -g -std=gnu++11 -o CMakeFiles\\demo.dir\\splitline.cpp.obj -c D:\\Ubuntu-22.04\\cmakelist\\splitline.cpp",
+  "file": "D:/Ubuntu-22.04/cmakelist/splitline.cpp"
+},
+{
+  "directory": "D:/Ubuntu-22.04/cmakelist/build",
+  "command": "g++   -g -std=gnu++11 -o CMakeFiles\\demo.dir\\varlib.cpp.obj -c D:\\Ubuntu-22.04\\cmakelist\\varlib.cpp",
+  "file": "D:/Ubuntu-22.04/cmakelist/varlib.cpp"
+}
+]

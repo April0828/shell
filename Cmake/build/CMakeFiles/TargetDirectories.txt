@@ -1,0 +1,3 @@
+D:/Ubuntu-22.04/cmakelist/build/CMakeFiles/demo.dir
+D:/Ubuntu-22.04/cmakelist/build/CMakeFiles/edit_cache.dir
+D:/Ubuntu-22.04/cmakelist/build/CMakeFiles/rebuild_cache.dir
